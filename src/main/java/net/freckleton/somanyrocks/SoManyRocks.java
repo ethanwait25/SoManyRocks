@@ -1,6 +1,9 @@
 package net.freckleton.somanyrocks;
 
 import com.mojang.logging.LogUtils;
+import net.freckleton.somanyrocks.item.ModCreativeModeTabs;
+import net.freckleton.somanyrocks.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,7 +18,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(SoManyRocks.MOD_ID)
 public class SoManyRocks {
 
@@ -25,12 +27,13 @@ public class SoManyRocks {
     public SoManyRocks() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-
         modEventBus.addListener(this::addCreative);
-
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
@@ -40,7 +43,11 @@ public class SoManyRocks {
 
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+//        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+//            event.accept(ModItems.ROCK);
+//            event.accept(ModItems.ROCK_YOGURT);
+//            event.accept(ModItems.ROCK_BLOOD_BLUE_SPECKS);
+//        }
     }
 
     @SubscribeEvent
