@@ -1,6 +1,7 @@
 package net.freckleton.somanyrocks.item;
 
 import net.freckleton.somanyrocks.SoManyRocks;
+import net.freckleton.somanyrocks.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ROCK_BLOOD_BLUE_SPECKS.get());
                         pOutput.accept(ModItems.ROCK_OXIDIZED_GREEN.get());
                         pOutput.accept(ModItems.ROCK_OXIDIZED_RED.get());
+                        pOutput.accept(ModItems.ROCK_SANDY.get());
+                        pOutput.accept(ModItems.ROCK_BROWN_SPECKLED.get());
+
+                        pOutput.accept(ModBlocks.BLOCK_OF_ROCK.get());
+
                     })
                     .build());
 
