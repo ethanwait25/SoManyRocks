@@ -1,8 +1,10 @@
 package net.freckleton.somanyrocks;
 
 import com.mojang.logging.LogUtils;
+import net.freckleton.somanyrocks.block.ModBlocks;
 import net.freckleton.somanyrocks.item.ModCreativeModeTabs;
 import net.freckleton.somanyrocks.item.ModItems;
+import net.freckleton.somanyrocks.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +31,8 @@ public class SoManyRocks {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
