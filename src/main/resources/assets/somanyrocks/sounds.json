@@ -1,0 +1,10 @@
+{
+  "chill_rock_summertime": {
+    "sounds": [
+      {
+        "name": "somanyrocks:chill_rock_summertime",
+        "stream": true
+      }
+    ]
+  }
+}

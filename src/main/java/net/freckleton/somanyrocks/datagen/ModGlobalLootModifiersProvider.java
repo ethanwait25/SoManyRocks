@@ -22,7 +22,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     protected void start() {
         add("rock_from_stone", new AddItemModifier(new LootItemCondition[]{
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.STONE).build(),
-                LootItemRandomChanceCondition.randomChance(0.01f).build()}, ModItems.ROCK.get()));
+                LootItemRandomChanceCondition.randomChance(0.1f).build()}, ModItems.ROCK.get()));
 
         add("rock_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build()},

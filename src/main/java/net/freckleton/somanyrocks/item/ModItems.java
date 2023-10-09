@@ -1,7 +1,9 @@
 package net.freckleton.somanyrocks.item;
 
 import net.freckleton.somanyrocks.SoManyRocks;
+import net.freckleton.somanyrocks.sound.ModSounds;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,6 +28,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROCK_BROWN_SPECKLED = ITEMS.register("rock_brown_speckled",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MUSIC_DISC_CHILL_ROCK_SUMMERTIME =
+            ITEMS.register("music_disc_chill_rock_summertime", () -> new RecordItem(6, ModSounds.CHILL_ROCK_SUMMERTIME,
+                    new Item.Properties().stacksTo(1), 3880));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

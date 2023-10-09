@@ -28,6 +28,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.BLOCK_OF_ROCK.get());
 
+                        pOutput.accept(ModItems.MUSIC_DISC_CHILL_ROCK_SUMMERTIME.get());
+
                     })
                     .build());
 
