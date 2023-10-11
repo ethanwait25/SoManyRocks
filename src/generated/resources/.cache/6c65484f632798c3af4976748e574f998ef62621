@@ -1,1 +1,3 @@
-// 1.20.1	2023-10-08T22:10:35.9952195	Tags for minecraft:block mod id somanyrocks
+// 1.20.1	2023-10-10T20:48:09.9146334	Tags for minecraft:block mod id somanyrocks
+4f0a2e7071f2a19e7293f87c255b5cc30b0a065c data/minecraft/tags/blocks/mineable/pickaxe.json
+f9c68a249427cbff1bf93d6bc6c9d8bee39aeca3 data/minecraft/tags/blocks/needs_iron_tool.json

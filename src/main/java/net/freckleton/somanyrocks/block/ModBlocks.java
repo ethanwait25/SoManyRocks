@@ -21,6 +21,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOCK_OF_ROCK = registerBlock("block_of_rock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> BLOCK_OF_ROCK_OXIDIZED_GREEN = registerBlock("block_of_rock_oxidized_green",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> GEOMORPHITE_ORE = registerBlock("geomorphite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)));
+
+
+    //Block without loot table:     (with .noLootTable() method)
+//    public static final RegistryObject<Block> ffff = registerBlock("block_of_rock",
+//                () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

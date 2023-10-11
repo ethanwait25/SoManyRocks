@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rock_oxidized_green": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "somanyrocks:rock_oxidized_green"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "somanyrocks:block_of_rock_oxidized_green"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rock_oxidized_green",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "somanyrocks:block_of_rock_oxidized_green"
+    ]
+  },
+  "sends_telemetry_event": false
+}

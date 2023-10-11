@@ -1,0 +1,10 @@
+// 1.20.1	2023-10-10T20:48:09.9166291	Block States: somanyrocks
+417c3633ed6f897c934e47c0cce94d06ba0e9da4 assets/somanyrocks/blockstates/block_of_rock.json
+356d4967c77546d202154a22ef34fda46f2f7a83 assets/somanyrocks/blockstates/block_of_rock_oxidized_green.json
+9be26d864be3a52b0715ae426bc2da2d31034369 assets/somanyrocks/blockstates/geomorphite_ore.json
+236cc83c1315add9349508e00f2ed45fb581ea84 assets/somanyrocks/models/block/block_of_rock.json
+fa4d006289be26a167e4608efa7798da5e98a526 assets/somanyrocks/models/block/block_of_rock_oxidized_green.json
+8edd0e08bf9bf4221a10cf0d55e03a633acab1ad assets/somanyrocks/models/block/geomorphite_ore.json
+f5cee77111bb4d2870cd34d6c508f0de188f1951 assets/somanyrocks/models/item/block_of_rock.json
+5efeb520b6891a83564525008f9c80b9a257bf19 assets/somanyrocks/models/item/block_of_rock_oxidized_green.json
+6a9206b3f8bf7bd09cccf02e66a6cbd0b1db86d3 assets/somanyrocks/models/item/geomorphite_ore.json

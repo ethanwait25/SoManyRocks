@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "somanyrocks:item/rock_oxidized_red"
+  }
+}

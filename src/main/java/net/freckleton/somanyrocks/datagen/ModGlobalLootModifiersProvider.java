@@ -24,6 +24,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.STONE).build(),
                 LootItemRandomChanceCondition.randomChance(0.1f).build()}, ModItems.ROCK.get()));
 
+        add("rock_from_copper_ore", new AddItemModifier(new LootItemCondition[]{
+                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.COPPER_ORE).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()}, ModItems.ROCK_OXIDIZED_GREEN.get()));
+
         add("rock_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build()},
                 ModItems.ROCK.get()));

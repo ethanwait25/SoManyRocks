@@ -1,0 +1,14 @@
+{
+  "type": "somanyrocks:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:copper_ore",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "somanyrocks:rock_oxidized_green"
+}

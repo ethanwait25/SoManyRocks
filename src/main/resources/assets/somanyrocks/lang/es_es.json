@@ -7,7 +7,11 @@
   "item.somanyrocks.rock_sandy": "Piedra",
   "item.somanyrocks.rock_brown_speckled": "Piedra",
 
+  "item.somanyrocks.music_disc_chill_rock_summertime": "Disco de Música",
+  "item.somanyrocks.music_disc_chill_rock_summertime.desc": "E.L. - Chill Rock (Summertime)",
+
   "block.somanyrocks.block": "Bloque de Piedra",
+  "block.somanyrocks.block_of_rock_oxidized_green": "Bloque de Piedra",
 
   "creativetab.rocks_tab": "Piedras"
 

@@ -29,6 +29,9 @@ public class ModItems {
     public static final RegistryObject<Item> ROCK_BROWN_SPECKLED = ITEMS.register("rock_brown_speckled",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GEOMORPHITE = ITEMS.register("geomorphite",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> MUSIC_DISC_CHILL_ROCK_SUMMERTIME =
             ITEMS.register("music_disc_chill_rock_summertime", () -> new RecordItem(6, ModSounds.CHILL_ROCK_SUMMERTIME,
                     new Item.Properties().stacksTo(1), 3880));

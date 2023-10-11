@@ -6,7 +6,6 @@ import net.freckleton.somanyrocks.item.ModCreativeModeTabs;
 import net.freckleton.somanyrocks.item.ModItems;
 import net.freckleton.somanyrocks.loot.ModLootModifiers;
 import net.freckleton.somanyrocks.sound.ModSounds;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

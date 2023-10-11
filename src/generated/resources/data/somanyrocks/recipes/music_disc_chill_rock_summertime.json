@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "somanyrocks:rock"
+    },
+    "D": {
+      "tag": "minecraft:music_discs"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "item": "somanyrocks:music_disc_chill_rock_summertime"
+  },
+  "show_notification": true
+}

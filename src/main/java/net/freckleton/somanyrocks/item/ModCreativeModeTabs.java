@@ -25,8 +25,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ROCK_OXIDIZED_RED.get());
                         pOutput.accept(ModItems.ROCK_SANDY.get());
                         pOutput.accept(ModItems.ROCK_BROWN_SPECKLED.get());
+                        pOutput.accept(ModItems.GEOMORPHITE.get());
 
+                        pOutput.accept(ModBlocks.GEOMORPHITE_ORE.get());
                         pOutput.accept(ModBlocks.BLOCK_OF_ROCK.get());
+                        pOutput.accept(ModBlocks.BLOCK_OF_ROCK_OXIDIZED_GREEN.get());
 
                         pOutput.accept(ModItems.MUSIC_DISC_CHILL_ROCK_SUMMERTIME.get());
 

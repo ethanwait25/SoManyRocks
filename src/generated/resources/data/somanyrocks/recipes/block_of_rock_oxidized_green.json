@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "somanyrocks:rock_oxidized_green"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "somanyrocks:block_of_rock_oxidized_green"
+  },
+  "show_notification": true
+}

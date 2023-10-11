@@ -6,11 +6,14 @@
   "item.somanyrocks.rock_oxidized_red": "Rock",
   "item.somanyrocks.rock_sandy": "Rock",
   "item.somanyrocks.rock_brown_speckled": "Rock",
+  "item.somanyrocks.geomorphite": "Geomorphite",
 
   "item.somanyrocks.music_disc_chill_rock_summertime": "Music Disc",
   "item.somanyrocks.music_disc_chill_rock_summertime.desc": "E.L. - Chill Rock (Summertime)",
 
   "block.somanyrocks.block_of_rock": "Block of Rock",
+  "block.somanyrocks.block_of_rock_oxidized_green": "Block of Rock",
+  "block.somanyrocks.geomorphite_ore": "Geomorphite Ore",
 
   "creativetab.rocks_tab": "Rocks"
 

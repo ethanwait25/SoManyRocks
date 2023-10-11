@@ -1,4 +1,5 @@
-// 1.20.1	2023-10-08T14:46:35.1396762	Global Loot Modifiers : somanyrocks
-e8173ab68b5b19dc5bfd62f90b6e6dd2efb34952 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2023-10-10T13:31:24.9546734	Global Loot Modifiers : somanyrocks
+919acd14a4c8da45c5a89347ad0c6a302f605683 data/forge/loot_modifiers/global_loot_modifiers.json
+e9955a82b3babe0b607968aebd7acd89958f8525 data/somanyrocks/loot_modifiers/rock_from_copper_ore.json
 26e67df4849c921dbdd2a36befd3a002aeae7f18 data/somanyrocks/loot_modifiers/rock_from_jungle_temples.json
 9ef387d8f8b4a004e5cdffab92859854a4149723 data/somanyrocks/loot_modifiers/rock_from_stone.json
